@@ -1,0 +1,35 @@
+p{
+    color:blueviolet; 
+    font-size: 20pt; 
+    font-family: cursive;
+}
+
+h1{
+    color:darkred;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 64pt;
+}
+
+#p1{
+    color: red;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.tag_amarela{
+    color:yellow;
+}
+
+div p{
+    color:coral
+}
+
+div h1,p{text-align: center;}
+
+div p:hover{
+    background-color: aquamarine;
+}
+
+div{
+    background-color:lavenderblush;
+}

@@ -1,0 +1,22 @@
+.bloco1{
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+h1{
+    font-size: 64pt;
+    color:brown
+}
+
+p{
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkred
+}
+#tipos{
+    color: brown;
+    font-size: 32pt;
+}
+ul:hover{
+    background-color: lightcoral;
+}
