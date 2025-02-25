@@ -1,0 +1,23 @@
+body{background-color: lightgray;}
+#cabecalho{background-color: lightskyblue;}
+.cabecalho1{
+    border: 5px solid darkblue;
+    background-color: bisque;
+    height: 180px;
+}
+#titulo{
+    display: inline;
+    position: absolute;
+    left: 850px;
+    top: 50px;
+    color: green;
+    font-size: 30pt;
+}
+#imagem2{
+    position: absolute;
+    left: 1750px;
+    top: 15px;
+}
+.cabecalho2{
+    display: inline;
+}
