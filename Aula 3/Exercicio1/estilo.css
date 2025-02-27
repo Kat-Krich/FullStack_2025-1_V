@@ -9,15 +9,38 @@ body{background-color: lightgray;}
     display: inline;
     position: absolute;
     left: 850px;
-    top: 50px;
+    top: 40px;
     color: green;
-    font-size: 30pt;
+    font-size: 35pt;
 }
 #imagem2{
     position: absolute;
     left: 1750px;
     top: 15px;
 }
-.cabecalho2{
-    display: inline;
+a:link{
+    color: brown;
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal; 
+    vertical-align: middle;
+    margin-left: 610px; 
+    position:absolute;
+    text-decoration: none;
+}
+a:visited{color: brown;text-decoration: none}
+#a2{margin-left: 200px; position:relative;}
+#a3{margin-left: 400px; position:relative;}
+#a4{margin-left: 600px; position:relative;}
+#titulo2{
+    color: black; 
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+}
+.paragrafo1{
+    color: #562870;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20pt;
 }

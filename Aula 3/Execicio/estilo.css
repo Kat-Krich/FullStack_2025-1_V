@@ -1,2 +1,14 @@
 body{background-color: black;}
-img{}
+.link_fixo{position: fixed; margin-top: 15px;}
+#titulo{
+    font-size: 64pt; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    color: aliceblue; 
+    display: inline; 
+    margin-left: 150px;
+    margin-top: 15px;
+    border: 10px ridge lightgray;
+    border-top: 0px;
+    border-right: 0px;
+    padding: 15px;
+}
