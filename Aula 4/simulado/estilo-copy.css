@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cabesalho_border {
+    margin: 20px 0; 
+}
+
+#cabesalho{
+    display: flex;
+    justify-content: center;
+}
+
+#text_square {
+    background-color: #664a94;
+    color: white;
+    width: 125px;
+    height: 125px;
+    margin-right: 5px;
+}
+
+#first_part {
+    padding: 10px;
+}
+
+#second_part {
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+#imagem2 {
+    margin-left: 5px;
+}
+
+.links_cabesalho {
+    display: flex;
+    justify-content: center;
+    padding: 5px 30px 15px;
+}
