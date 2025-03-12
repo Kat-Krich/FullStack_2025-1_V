@@ -37,5 +37,9 @@
 .links_cabesalho {
     display: flex;
     justify-content: center;
-    padding: 5px 30px 15px;
+    padding: 5px 0 15px;
+}
+
+.links {
+    margin: 0 5px;
 }
