@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+h1,h2 {
+    font-family: Lexend;
+    padding: 0 15px;
+}
+
+p {
+    font-family: Birthstone;
+    font-size: 24pt;
+    padding: 0 15px;
+}
+
+input {
+    padding: 0 15px;
+}
