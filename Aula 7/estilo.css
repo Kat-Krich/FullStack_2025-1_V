@@ -1,0 +1,12 @@
+.tela {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#canvas {
+    background-color: greenyellow;
+}
+
+#canvas3 {
+    background-color: aquamarine;
+}
