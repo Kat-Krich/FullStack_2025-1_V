@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategray;
+}
+
+#canvas1 {
+    background-color: aqua;
+}
+
+.canva {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+
+}
+
+#titulo {
+    text-align: center;
+    margin: 5px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64pt;
+    color: darkgoldenrod;
+}
+
+#cav {
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+
+#canvas2 {
+    background-color: aquamarine;
+    height: 100%; 
+    width: 100%;
+}
