@@ -1,0 +1,13 @@
+body {
+    background-color: crimson;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 60pt;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
