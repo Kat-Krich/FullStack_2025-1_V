@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 9</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <br>
+    <h1 class="flex meio" id="titulo">Aula 9</h1>
+    <div class="flex coluna-meio">
+        <form class="tamanho" action="/inicio" method="get">
+            <h3 class="Subtitulo">Exemplo GET:</h3>
+            <p class="texto">Nome: <input class="texto caixa" type="text" name="info"></p>
+            <div class="flex meio">
+                <input class="texto caixa Botao" type="submit" value="Clique aqui para GET">
+            </div>
+        </form>
+        <br>
+        <form class="tamanho" method="post" action="/inicio">
+            <h3 class="Subtitulo">Exemplo POST:</h3>
+            <div class="flex meio">
+                <input class="texto caixa Botao" type="submit" value="Clique aqui para POST">
+            </div>
+        </form>
+        <br>
+        <form class="tamanho">
+            <h3 class="Subtitulo">Exemplos de Métodos e Ações no mesmo formulário</h3>
+            <div class="flex coluna-meio GetPostBox">
+                <input class="texto caixa Botao tamanhoBotao" id="BotaoGET" type="submit" value="GET" action="/inicio" method="get">
+                <br>
+                <input class="texto caixa Botao tamanhoBotao" type="submit" value="POST" action="/inicio" method="post">
+            </div>
+        </form>
+        <br>
+        <form class="tamanho" action="/cadastrar" method="get">
+            <h2 class="Subtitulo">Cadastro com GET:</h2>
+            <p class="texto">Nome: <input class="texto caixa" type="text" name="nome"></p>
+            <p class="texto">Usuário: <input class="texto caixa" type="text" name="usuario"></p>
+            <p class="texto">Senha: <input class="texto caixa" type="password" name="senha"></p>
+            <p class="texto">Data de Nascimento: <input class="texto caixa" type="date" name="data"></p>
+            <div class="flex meio GetPostBox">
+                <input class="texto caixa Botao" type="submit" value="Cadastrar">
+            </div>
+        </form>
+        <br>
+        <form class="tamanho" action="/cadastrar" method="post">
+            <h2 class="Subtitulo">Cadastrar com POST:</h2>
+            <p class="texto">Nome: <input class="texto caixa" type="text" name="nome"></p>
+            <p class="texto">Usuário: <input class="texto caixa" type="text" name="usuario"></p>
+            <p class="texto">Senha: <input class="texto caixa" type="password" name="senha"></p>
+            <p class="texto">Data de Nascimento: <input class="texto caixa" type="date" name="data"></p>
+            <div class="flex meio GetPostBox">
+                <input class="texto caixa Botao" type="submit" value="Cadastrar">
+            </div>
+        </form>
+        <br>
+        <!-- <form class="tamanho" action="/valor" method="post">
+            <h2 class="Subtitulo">Exemplo de For no EJS:</h2>
+            <div class="flex coluna-meio">
+                <input class="texto caixa GetPostBox" type="number" value="Digite um numero: " name="valor">
+                <br>
+                <div class="flex meio GetPostBox">
+                    <input class="texto caixa Botao" type="submit" value="Cadastrar">
+                </div>
+            </div>
+        </form> -->
+    </div>
+</body>
+</html>

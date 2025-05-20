@@ -1,0 +1,67 @@
+body {
+    background-color: blueviolet;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.meio {
+    justify-content: center;
+}
+
+.coluna-meio {
+    flex-direction: column;
+    align-items: center;
+}
+
+.GetPostBox {
+    margin: 0 80px 0 0;
+}
+
+#titulo {
+    font-size: 64pt;
+    font-weight: 400;
+    color: yellowgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto {
+    font-size: 25pt;
+    color: yellowgreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.tamanho {
+    margin: 0 0 0 70px;
+    width: 50%;
+}
+
+.tamanhoBotao {
+    width: 200px;
+}
+
+#BotaoGET {
+    margin: 0 0 10px;
+}
+
+.Botao {
+    background-color: yellowgreen;
+    text-align: center;
+    color: blueviolet;
+}
+
+.caixa {
+    border-radius: 40px;
+    border: groove yellowgreen;
+    padding: 10px 20px;
+}
+
+.Subtitulo {
+    font-size: 32pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellowgreen;
+    font-weight: 200;
+}
